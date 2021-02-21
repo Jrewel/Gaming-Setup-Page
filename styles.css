@@ -8,7 +8,6 @@ body {
 h1 {
   font-family: "Montserrat";
 
-  line-height: 1.5;
   font-weight: bold;
 }
 h2 {
@@ -19,7 +18,7 @@ h2 {
   font-weight: bold;
 }
 p {
-  font-size: 20px;
+  font-size: 80%;
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
 
@@ -27,7 +26,7 @@ p {
 }
 /***************************CLASS SELECTORS***************************/
 .container-fluid {
-  padding: 0 7% 0;
+padding: 0;
 }
 
 #title {
@@ -35,9 +34,12 @@ p {
 }
 
 /* Navigation Bar */
+.navbar {
+  margin: 0;
+}
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 150%;
   font-style: italic;
 
 }
@@ -49,24 +51,22 @@ p {
   font-family: "Montserrat"
 }
 /* Carousel */
+#carouselExampleIndicators {
+  padding-top: 2%;
+}
 .carousel {
   padding: 0 auto 5rem;
 }
 .carousel-images {
-  border-left: 10px solid;
-  border-right: 10px solid;
-  border-bottom: 10px solid;
+border: 10px solid;
 }
 .carousel-images-pc {
-border-left: 10px solid;
-border-right: 10px solid;
-border-bottom: 10px solid;
-
+border: 10px solid;
 }
 
 /* Footer */
 #footer {
   padding: 3% 5% 0;
-  font-size: 15px;
+
   font-style: italic;
 }
