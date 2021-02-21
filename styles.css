@@ -50,6 +50,9 @@ padding: 0;
   font-size: 1.2rem;
   font-family: "Montserrat"
 }
+.navbar-toggler {
+  margin-right: 10px;
+}
 /* Carousel */
 #carouselExampleIndicators {
   padding-top: 2%;
