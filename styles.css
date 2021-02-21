@@ -3,10 +3,11 @@
 body {
   font-family: "Montserrat";
   background-color: #487e95;
+
 }
 h1 {
   font-family: "Montserrat";
-  font-size: 3.5rem;
+
   line-height: 1.5;
   font-weight: bold;
 }
@@ -17,25 +18,11 @@ h2 {
   line-height: 1.5;
   font-weight: bold;
 }
-h3 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-table {
-  font-size: 20px;
-  font-style: italic;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  text-align: center;
-
-
-}
 p {
   font-size: 20px;
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+
   text-align: center;
 }
 /***************************CLASS SELECTORS***************************/
@@ -43,22 +30,16 @@ p {
   padding: 0 7% 0;
 }
 
-/***************************ID SELECTORS***************************/
 #title {
   background-color: #487e95;
-  color: red;
 }
 
 /* Navigation Bar */
-
-.navbar {
-
-}
-
 .navbar-brand {
-  font-family: "Ubuntu";
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: bold;
+  font-style: italic;
+
 }
 .nav-item {
   padding: 0 18px;
@@ -69,23 +50,23 @@ p {
 }
 /* Carousel */
 .carousel {
-  background-color: 
+  padding: 0 auto 5rem;
 }
 .carousel-images {
-  height: 720px;
+  border-left: 10px solid;
+  border-right: 10px solid;
+  border-bottom: 10px solid;
 }
 .carousel-images-pc {
-  height: 859px;
+border-left: 10px solid;
+border-right: 10px solid;
+border-bottom: 10px solid;
+
 }
 
-/* Components */
-
-.container1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-/* Feautures */
-#features {
-  padding: 7% 15%;
+/* Footer */
+#footer {
+  padding: 3% 5% 0;
+  font-size: 15px;
+  font-style: italic;
 }
